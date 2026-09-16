@@ -6,4 +6,10 @@
 
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
-n = int(input())
+n = int(input("กรุณากรอกตัวเลข"))
+
+if n %3:
+ print("Even")
+
+elif n %2:
+  print("Odd")
