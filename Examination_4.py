@@ -8,3 +8,13 @@
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
 score = int(input())
+if score >= 80:
+    print("ได้ A")
+elif score >= 70:
+    print("ได้ B")
+elif score >= 60:
+    print("ได้ C")
+elif score >= 50:
+    print("ได้ D")
+else:
+    print("ได้ F")
